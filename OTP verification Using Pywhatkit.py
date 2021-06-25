@@ -9,11 +9,11 @@ msg= otp
 
 emailid = input("Enter your email: ")
 
-kit.send_mail("mv1nayak231@gmail.com","mmmnewv2#51","New Email from pywhatkit Auomation by Vinayak",f"{msg}",f"{emailid}")
+kit.send_mail("Your Email","Your Password","New Email from pywhatkit Auomation by Your_Nmae",f"{msg}",f"{emailid}")
 print("An OTP is sent to Your email please check your inbox")
 a = input("Enter Your OTP >>: ")
 if a == OTP:
     print("Your OTP Successfully Verified !!!")
-    kit.send_mail("mv1nayak231@gmail.com","mmmnewv2#51","Email Verification","Your Email is Succesfully verified!!" ,f"{emailid}")
+    kit.send_mail("Your Email","Your Password","Email Verification","Your Email is Succesfully verified!!" ,f"{emailid}")
 else:
     print("Incorrect OTP!!! \nPlease Check your OTP and try again")
