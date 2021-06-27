@@ -1,6 +1,6 @@
 import pywhatkit as kit
 #sending Automatic Message from whatsapp web in your default browser.
-# phone_number = 8793550921
+# phone_number = Your Number
 # kit.sendwhatmsg(f"+91{phone_number}","1.jpg",18,14)
 
 #playing video on youtube
